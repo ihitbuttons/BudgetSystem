@@ -1,0 +1,132 @@
+body {
+	font-family : "trebuchet.ms", verdana, sans-serif;
+	font-size: 10px;
+	color: #333; 
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #DCE1E6;
+}
+
+#header {
+	position: absolute;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 288px;
+	width: 1340px;
+	height: 60px;
+	text-align: center;
+	background: #1F88A7;
+}
+
+#headerLeft {
+	position: absolute;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	width: 288px;
+	height: 60px;
+	text-align: center;
+	background: #1F88A7;
+}
+
+#processing {
+	position: absolute;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	right: 0px;
+	width: 288px;
+	height: 60px;
+	z-index: 100;
+	text-align: left;	
+	background-color: #1F88A7;
+	overflow: show;
+}
+
+
+#container {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	height: 97%;
+	#width: 1920px;
+	width: 100%;
+	visibility: visible;
+	z-index: 1;
+	overflow: scroll;
+}
+
+#overcontainer {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	height: 97%;
+	width: 1920px;
+	visibility: hidden;
+	z-index:50;
+}
+
+#innerPopup{
+	position: absolute;
+	height: 325px;
+	width: 625px;
+	background-color: #DCE1E6;
+	visibility: hidden;
+}
+
+select {
+	background-color: #A9AEAF;
+	overflow: hidden;
+}
+
+input[type=text]{
+	background-color: #CCCCCC;
+}
+
+textarea {
+	background-color: #CCCCCC;
+}
+
+td {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.blue {
+	background-color: #E0F8F7;
+}
+
+.bg {
+	background-color: #DCE1E6;
+}
+
+.grey {
+	background-color: #D8D8D8;
+}
+
+.green {
+	background-color: #ACFA58;
+}
+
+.yellow {
+	background-color: #F4FA58;
+}
+
+.red {
+	background-color: #FF0000;
+}
+
+.lightblue {
+	background-color: #A9F5F2;
+}
+
+a:hover, a:active {
+	color: #000000;
+	background-color: #FFFFFF;
+}
